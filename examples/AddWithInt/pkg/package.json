@@ -1,0 +1,16 @@
+{
+  "name": "ex1",
+  "version": "0.1.0",
+  "files": [
+    "ex1_bg.wasm",
+    "ex1.js",
+    "ex1_bg.js",
+    "ex1.d.ts"
+  ],
+  "module": "ex1.js",
+  "types": "ex1.d.ts",
+  "sideEffects": [
+    "./ex1.js",
+    "./snippets/*"
+  ]
+}
